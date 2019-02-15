@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC01_Verify Response Code on Get</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>f55ff570-66f7-4301-97cc-90f88a913004</testCaseGuid>
+</TestCaseEntity>

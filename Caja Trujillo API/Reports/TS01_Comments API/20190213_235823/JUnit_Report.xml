@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="TS01_Comments API" time="4" tests="2" failures="0" errors="0">
+   <testsuite name="TS01_Comments API" tests="2" failures="0" errors="0" time="4" timestamp="2019-02-13 23:58:29" hostname="danny.arica - lim-lp00347.avanticape.AVANTICA.AVANTICATEC.NET" id="Test Suites/TS01_Comments API">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\danny.arica\\Katalon Studio\\Caja Trujillo API\\Reports\\TS01_Comments API\\20190213_235823"/>
+         <property name="logFiles" value="C:\\Users\\danny.arica\\Katalon Studio\\Caja Trujillo API\\Reports\\TS01_Comments API\\20190213_235823\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="danny.arica - lim-lp00347.avanticape.AVANTICA.AVANTICATEC.NET"/>
+         <property name="hostAddress" value="192.168.56.1"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="5.10.1.1"/>
+      </properties>
+      <testcase name="Test Cases/Comments/TC01_Verify Response Code on Get" classname="Test Cases/Comments/TC01_Verify Response Code on Get" status="PASSED">
+         <system-out><![CDATA[2019-02-13 23:58:29 - [TEST_CASE][PASSED] - Test Cases/Comments/TC01_Verify Response Code on Get: Test Cases/Comments/TC01_Verify Response Code on Get
+
+2019-02-13 23:58:30 - [TEST_STEP][PASSED] - response = sendRequest(findTestObject("Comment Response")): Send request successfully
+
+2019-02-13 23:58:33 - [MESSAGE][INFO] - HAR: C:\Users\danny.arica\Katalon Studio\Caja Trujillo API\Reports\TS01_Comments API\20190213_235823\requests\main\0.har
+
+2019-02-13 23:58:33 - [MESSAGE][PASSED] - Send request successfully
+
+2019-02-13 23:58:33 - [TEST_STEP][PASSED] - verifyResponseStatusCode(response, 200): Verify response status code successfully
+
+2019-02-13 23:58:33 - [MESSAGE][PASSED] - Verify response status code successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Comments/TC02_Verify Response Code on Post" classname="Test Cases/Comments/TC02_Verify Response Code on Post" status="PASSED">
+         <system-out><![CDATA[2019-02-13 23:58:33 - [TEST_CASE][PASSED] - Test Cases/Comments/TC02_Verify Response Code on Post: Test Cases/Comments/TC02_Verify Response Code on Post
+
+2019-02-13 23:58:33 - [TEST_STEP][PASSED] - response = sendRequest(findTestObject("Comment Request")): Send request successfully
+
+2019-02-13 23:58:34 - [MESSAGE][INFO] - HAR: C:\Users\danny.arica\Katalon Studio\Caja Trujillo API\Reports\TS01_Comments API\20190213_235823\requests\main\1.har
+
+2019-02-13 23:58:34 - [MESSAGE][PASSED] - Send request successfully
+
+2019-02-13 23:58:34 - [TEST_STEP][PASSED] - verifyResponseStatusCode(response, 201): Verify response status code successfully
+
+2019-02-13 23:58:34 - [MESSAGE][PASSED] - Verify response status code successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2019-02-13 23:58:29 - [TEST_SUITE][PASSED] - TS01_Comments API: Test Cases/Comments/TC02_Verify Response Code on Post]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

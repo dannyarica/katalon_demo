@@ -1,0 +1,10 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+TS01_Comments API,,,2019-02-13 14:17:59,2019-02-13 14:18:05,6.385s,PASSED
+,,,,,,
+Test Cases/Comments/TC01_Verify Response Code on Get,,,2019-02-13 14:17:59,2019-02-13 14:18:03,4.296s,PASSED
+"response = sendRequest(findTestObject(""Comment Response""))",,,2019-02-13 14:17:59,2019-02-13 14:18:03,3.870s,PASSED
+"verifyResponseStatusCode(response, 200)",,,2019-02-13 14:18:03,2019-02-13 14:18:03,0.016s,PASSED
+,,,,,,
+Test Cases/Comments/TC02_Verify Response Code on Post,,,2019-02-13 14:18:03,2019-02-13 14:18:05,1.498s,PASSED
+"response = sendRequest(findTestObject(""Comment Request""))",,,2019-02-13 14:18:04,2019-02-13 14:18:05,1.214s,PASSED
+"verifyResponseStatusCode(response, 201)",,,2019-02-13 14:18:05,2019-02-13 14:18:05,0.001s,PASSED
