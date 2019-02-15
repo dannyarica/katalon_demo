@@ -53,3 +53,8 @@ $RECYCLE.BIN/
 *.lnk
 
 # End of https://www.gitignore.io/api/java,windows
+/bin/
+/Libs/
+/.settings/
+/.classpath
+.svn/
